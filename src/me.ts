@@ -297,5 +297,6 @@ export const me = {
 
   contact: {
     email: "erik@uden.ai",
+	phone: "+49 176 83883250",
   },
 } as IMe;

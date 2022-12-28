@@ -57,6 +57,7 @@ interface ISocial {
 
 interface IContact {
   email: string;
+  phone: string;
 }
 
 interface ILink {
