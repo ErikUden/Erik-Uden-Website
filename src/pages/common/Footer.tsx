@@ -18,9 +18,9 @@ export const Footer = () => {
         borderTop={"1px solid"}
         borderTopColor={useColorModeValue("gray.200", "gray.700")}
       >
-        <Text fontWeight={"bold"}>Made with ❤️ by arhammusheer</Text>
+        <Text fontWeight={"bold"}>Made with ❤️ by Erik Uden</Text>
         <Text>
-          All rights reserved © Mohammad Arham {new Date().getFullYear()}
+          All Rights Reserved © Erik Uden {new Date().getFullYear()}
         </Text>
       </Stack>
     </Container>
