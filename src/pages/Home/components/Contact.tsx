@@ -52,6 +52,7 @@ export const Contact = () => {
         >
           {me.contact.email}
         </Text>
+		
       </Box>
     </Flex>
   );

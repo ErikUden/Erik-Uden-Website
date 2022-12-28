@@ -8,14 +8,14 @@ export const Loader = () => {
         animate={{
           rotate: [0, 375, 360],
           transition: {
-            duration: 1,
+            duration: 2,
             repeat: Infinity,
             ease: "linear",
             bounce: 0.5,
           },
         }}
       >
-        <Image src={"/assets/croissant.svg"} h={"64px"} />
+        <Image src={"/assets/Fediverse-Logo.svg"} h={"128px"} />
       </motion.div>
     </Flex>
   );

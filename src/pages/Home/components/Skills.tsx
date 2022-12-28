@@ -10,6 +10,7 @@ import { useAnimation, motion } from "framer-motion";
 import { useEffect } from "react";
 import { IconType } from "react-icons";
 import { useInView } from "react-intersection-observer";
+import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
 import { me } from "../../../me";
 
 export const Skills = () => {
