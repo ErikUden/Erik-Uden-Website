@@ -19,119 +19,121 @@ import {
 import { IMe } from "./me.interface";
 
 export const me = {
-  name: "Mohammad Arham",
-  subtitle: "Computer Engineering Student & Backend Developer",
+  name: "Erik Uden",
+  subtitle: "CEO of Uden AI and Full Stack MERN Developer",
   tagline:
-    "I am a computer engineering student who loves to build software to create fun experiences.",
+    "I am a Fediverse developer who fights for software freedom and privacy rights!",
   about:
-    "Junior Computer Engineering student building production ready systems for my startup. I love making fun projects on the side usually for the memes. Checkout some of my recent projects below.",
-  location: "Amherst, MA",
-  image: "/assets/arhammusheer.jpeg",
+    "I contribute to and self-host decentralized communication networks such as the Fediverse (Mastodon, Pleroma, Diaspora...). I fight for digital rights and believe in freedom of information and FOSS.",
+  location: "Norden, Germany",
+  image: "/assets/erikuden3.png",
   education: [
     {
-      degree: "Bachelors of Science",
-      major: "Computer Engineering",
-      school: "University of Massachusetts Amherst",
-      graduation: "May 2024",
-      awards: ["Chancellor's Award: $12,000"],
+      degree: "Abitur (General Certificate of Education)",
+      major: "Scientific Focus",
+      school: "Ulrichsgymnasium Norden",
+      graduation: "2022.07.02",
+      awards: ["Angelus Sala-Prize of Chemistry"],
+    },
+	{
+      degree: "High School Diploma",
+      major: "AP Comp Sci A, AP Chem, AP Physics 1, AP Macro",
+      school: "Willow Glen High School",
+      graduation: "2022.06.02",
+      awards: ["Treasurer of the Robotics Club"],
     },
   ],
   experience: [
     {
-      company: "AudioShelf",
-      location: "Amherst, MA",
-      position: "Co-Founder & CTO",
-      duration: "Feb 2022 - Present",
+      company: "Uden AI",
+      location: "Norden, Germany",
+      position: "Co-Founder & CEO",
+      duration: "Feb 2021 - Present",
       bullets: [
-        "Led the backend development pipeline and managed a team of 2 interns.",
-        "Developed the backend API and audio content delivery service using a microservices architecture on the Google Cloud Platform.",
-        "Developed a CMS dashboard and a supporting management API from scratch for content and user management and permissions using React.",
-        "Hosted the fully scalable serverless API on GCP Cloud run using docker, cloud builds, and cloud run which supported up to 200 concurrent users in production.",
+        "Wrote Cyberattack-Reports for Nations under Attack",
+        "Developed Fediverse Software and Published it FOSS",
+        "Pen-Tested Various Local Companies",
+        "Deployed Self-Hosted Cloud and Streaming Platforms",
+		"AI as a Service for Live-Processing",
       ],
     },
     {
-      company: "University of Massachusetts Amherst",
-      location: "Amherst, MA",
-      position: "IT Computer Classroom Assistant",
-      duration: "Fall 2021 - Present",
+      company: "Wasco GmbH",
+      location: "Upgant-Schott, Germany",
+      position: "Artificial Intelligence Developer",
+      duration: "Feb 2019 - Aug 2020",
       bullets: [
-        "Provided phone and in-person support for classroom technical issues.",
-        "Supported the upkeep and maintenance of computer labs managed by IT.",
-        "Notify and resolve any issues affecting workflows in computer labs using a ticket system.",
+        "Built AI Models in TensorFlow",
+        "Recovered Crashed Servers",
+        "Developed and Maintained WordPress Site",
       ],
     },
     {
-      company: "University of Massachusetts Amherst",
-      location: "Amherst, MA",
-      position: "IT Technical Consultant",
-      duration: "Summer 2022",
+      company: "DFKI (German Research Center for Artificial Intelligence)",
+      location: "Bremen, Germany",
+      position: "Intern",
+      duration: "Oct 2018 - Nov 2018",
       bullets: [
-        "Dismantled and deployed several hundred computers using scripted deployments and OS installs on Windows and Mac machines all around the UMass Campus.",
-        "Performed maintenance and upkeep of about 12-15 computer labs around campus.",
-        "Added new machines to the network and tested several hundred machines for issues and raised service requests.",
+        "Learned from LiDAR Systems",
+        "Built and 3D Printed a Solar-Tracker",
       ],
     },
     {
-      company: "Cisco Systems",
-      location: "Bangalore, India",
-      position: "Front End Developer Intern - Talent Outreach Program",
-      duration: "Aug 2019 - Feb 2020",
+      company: "Heinrich Döpke GmbH",
+      location: "Norden, Germany",
+      position: "Intern",
+      duration: "Feb 2018 - Mar 2018",
       bullets: [
-        "Collaborated with other team members to create an event management platform for high schools.",
-        "Developed a responsive design implementing a mobile-first approach.",
-        "Supported entire CRUD operations on the front end for the REST API.",
-        "Designed and developed a desktop and mobile UI dashboard for a Django WebApp.",
+        "Welded Metal Parts",
+        "Painted and Coated a Small Ferry",
+        "Learned Basic Mechatronics",
       ],
     },
   ],
   projects: [
     {
-      name: "Croissant Chat",
+      name: "The Internet Portal",
       description:
-        "A chat app which shows you chat rooms in a 5 mile radius to connect you with the community around you.",
+        "With the press of a button, you will be transported to a random website out of over 219 million in our database.",
       contribution:
-        "I built the frontend client and backend infrastructure for the app using React.js, Node.js, and Prisma and PlanetScale. I also built an end to end websocket API implementing a pub/sub model. The platform is setup to autoscale using Google Cloud Run and Redis Pub/Sub.",
+        "I downloaded all of the internet's domains via ICANN's CZDS API, imported them into a SQL database, open-sourced the source code (AGPLv3), self-hosted it on Uden AI servers.",
       technologies: [
-        "React",
-        "Typescript",
-        "Node.js",
-        "Prisma",
-        "PlanetScale",
-        "Websockets",
+	    "AGPLv3",
+        "HTML",
+        "CSS",
+        "JS",
+        "PHP",
+        "MySQL",
         "Docker",
-        "Redis",
-        "Google Cloud",
+        "Docker",
+        "Self-Hosted",
       ],
       links: [
         {
           name: "Website",
-          uri: "https://chat.croissant.one",
+          uri: "https://theinternetportal.net/",
         },
         {
-          name: "Github (Frontend)",
-          uri: "https://github.com/arhammusheer/croissant-chat",
-        },
-        {
-          name: "Github (Backend)",
-          uri: "https://github.com/arhammusheer/croissant-chat-backend",
+          name: "Github",
+          uri: "https://github.com/Uden-AI/theinternetportal",
         },
       ],
-      image: "/assets/croissant-chat.png",
+      image: "/assets/the-internet-portal-logo-black.svg",
     },
     {
-      name: "Lord of the Lunchroom",
+      name: "Fediverse Share",
       description:
-        "A project for HackUMass which let 2 people in a cowboy duel smart hats to see who wins the table in the wochester dining hall. The project won the funnest hack award.",
+        "A simple static web button akin to the 'Share on Twitter' button but for the Fediverse. Allows visitors of your webpage to share it on the Fediverse! Works on 19 different social media networks including, but not limited to: Mastodon, Pleroma, GNUSocial",
       contribution:
-        "I wrote the code for the matchmaking server and the arduino smart hats which used infrared technology as guns and detectors and a displays to show the match status.",
-      image: "/assets/lord-of-the-lunchroom.jpg",
-      technologies: ["Node.js", "JavaScript", "ESP8266", "Arduino", "C++"],
+        "I forked a similar project called 'Share on Mastodon' and edited its source code to be compatible with most Fediverse software, additionally I designed 32+ new logos that the Share on Fediverse buttons use.",
+      image: "/assets/Fediverse-Logo.svg",
+      technologies: ["AGPLv3", "HTML", "CSS", "JS"],
       links: [
         {
-          name: "Devpost",
-          uri: "https://devpost.com/software/lord-of-the-lunchroom",
+          name: "GitHub",
+          uri: "https://github.com/Uden-AI/fediverse-share",
         },
-        { name: "Image", uri: "/assets/lord-of-the-lunchroom.jpg" },
+        { name: "Demo", uri: "https://fediverse-share.uden.ai" },
       ],
       
     },
@@ -218,10 +220,7 @@ export const me = {
     },
   ],
   skills: [
-    {
-      name: "Typescript",
-      icon: SiTypescript,
-    },
+
     {
       name: "JavaScript",
       icon: SiJavascript,
@@ -233,7 +232,13 @@ export const me = {
     {
       name: "Clang",
       icon: SiC,
-    },
+    
+	},
+	{
+      name: "Arduino",
+      icon: SiC,
+    
+	},
     {
       name: "React",
       icon: FaReact,
@@ -255,12 +260,16 @@ export const me = {
       name: "Kubernetes",
       icon: SiKubernetes,
     },
+	{
+      name: "Typescript",
+      icon: SiTypescript,
+    }
   ],
   social: [
     {
       name: "Resume",
       icon: FaNewspaper,
-      uri: "Mohammad-Arham-Resume.pdf",
+      uri: "Erik-Uden-Resume.pdf",
       hover: {
         bg: "red.500",
         color: "white",
@@ -269,7 +278,7 @@ export const me = {
     {
       name: "Github",
       icon: FaGithub,
-      uri: "https://github.com/arhammusheer",
+      uri: "https://github.com/erikuden",
       hover: {
         bg: "gray.900",
         color: "white",
@@ -278,7 +287,7 @@ export const me = {
     {
       name: "LinkedIn",
       icon: FaLinkedin,
-      uri: "https://www.linkedin.com/in/mohammad-arham/",
+      uri: "https://www.linkedin.com/in/erikuden",
       hover: {
         bg: "blue.500",
         color: "white",
@@ -287,6 +296,6 @@ export const me = {
   ],
 
   contact: {
-    email: "arhammusheer@gmail.com",
+    email: "erik@uden.ai",
   },
 } as IMe;
