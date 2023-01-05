@@ -6,7 +6,14 @@ import {
   FaNode,
   FaPager,
   FaReact,
+  FaAws,
+  FaDatabase,
 } from "react-icons/fa";
+import {
+  DiAndroid,
+  DiApple,
+  DiDebian,
+} from "react-icons/di";
 import {
   SiC,
   SiGooglecloud,
@@ -14,6 +21,32 @@ import {
   SiKubernetes,
   SiPython,
   SiTypescript,
+  SiTensorflow,
+  SiArduino,
+  SiMongodb,
+  SiExpress,
+  SiPytorch,
+  SiCsharp,
+  SiCplusplus,
+  SiAngularjs,
+  SiRuby,
+  SiRubyonrails,
+  SiRaspberrypi,
+  SiFreebsd,
+  SiLinux,
+  SiKalilinux,
+  SiUbuntu,
+  SiLinuxmint,
+  SiWordpress,
+  SiJava,
+  SiMysql,
+  SiWindows,
+  SiMacos,
+  SiKdenlive,
+  SiOracle,
+  SiElixir,
+  
+  
 } from "react-icons/si";
 
 import { IMe } from "./me.interface";
@@ -96,7 +129,7 @@ export const me = {
       description:
         "With the press of a button, you will be transported to a random website out of over 219 million in our database.",
       contribution:
-        "I downloaded all of the internet's domains via ICANN's CZDS API, imported them into a SQL database, open-sourced the source code (AGPLv3), self-hosted it on Uden AI servers.",
+        "I downloaded all of the internet's domains via ICANN's CZDS API, imported them into a SQL database, open-sourced the source code (AGPLv3) written by Samuel Berman, self-hosted it on Uden AI servers.",
       technologies: [
 	    "AGPLv3",
         "HTML",
@@ -116,6 +149,10 @@ export const me = {
         {
           name: "Github",
           uri: "https://github.com/Uden-AI/theinternetportal",
+        },
+		{
+          name: "Samuel Berman",
+          uri: "https://sberman.me/",
         },
       ],
       image: "/assets/the-internet-portal-logo-black.svg",
@@ -140,23 +177,81 @@ export const me = {
     
   ],
   skills: [
-
-    {
-      name: "JavaScript",
-      icon: SiJavascript,
+	{
+      name: "TensorFlow",
+      icon: SiTensorflow,
+    },
+	{
+      name: "Java",
+      icon: SiJava,
     },
     {
       name: "Python",
       icon: SiPython,
+    },
+	{
+      name: "PyTorch",
+      icon: SiPytorch,
     },
     {
       name: "Clang",
       icon: SiC,
     
 	},
+	{
+      name: "C++",
+      icon: SiCplusplus,
+    
+	},
+	{
+      name: "C#",
+      icon: SiCsharp,
+    
+	},
+	{
+      name: "Elixir",
+      icon: SiElixir,
+    
+	},
+	{
+      name: "Arduino",
+      icon: SiArduino,
+    
+	},
+	{
+      name: "Raspberry Pi",
+      icon: SiRaspberrypi,
+    
+	},
+	{
+      name: "TypeScript",
+      icon: SiTypescript,
+    },
+	{
+      name: "JavaScript",
+      icon: SiJavascript,
+    },
+	{
+      name: "Database",
+      icon: FaDatabase,
+    },
+	{
+      name: "MongoDB",
+      icon: SiMongodb,
+    
+	},
+	{
+      name: "Express.js",
+      icon: SiExpress,
+    
+	},
     {
-      name: "React",
+      name: "React.js",
       icon: FaReact,
+    },
+	{
+      name: "Angular.js",
+      icon: SiAngularjs,
     },
     {
       name: "Node.js",
@@ -166,19 +261,66 @@ export const me = {
       name: "Docker",
       icon: FaDocker,
     },
-
-    {
-      name: "AWS",
-      icon: SiGooglecloud,
-    },
     {
       name: "Kubernetes",
       icon: SiKubernetes,
     },
 	{
-      name: "Typescript",
-      icon: SiTypescript,
-    }
+      name: "AWS",
+      icon: FaAws,
+    },
+	{
+      name: "Oracle",
+      icon: SiOracle,
+    },
+	{
+      name: "WordPress",
+      icon: SiWordpress,
+    },
+	{
+      name: "Ruby",
+      icon: SiRuby,
+    },
+	{
+      name: "Ruby on Rails",
+      icon: SiRubyonrails,
+    },
+	{
+      name: "Android",
+      icon: DiAndroid,
+    },
+	{
+      name: "iOS",
+      icon: DiApple,
+    },
+	{
+      name: "Linux",
+      icon: SiLinux,
+    },
+	{
+      name: "Kali",
+      icon: SiKalilinux,
+    },
+	{
+      name: "Ubuntu",
+      icon: SiUbuntu,
+    },
+	{
+      name: "Debian",
+      icon: DiDebian,
+    },
+	{
+      name: "BSD",
+      icon: SiFreebsd,
+    },
+	{
+      name: "Windows",
+      icon: SiWindows,
+    },
+	{
+      name: "Video Editing",
+      icon: SiKdenlive,
+    },
   ],
   social: [
     {

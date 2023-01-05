@@ -28,7 +28,7 @@ export const Skills = () => {
     >
       <Box w={"full"}>
         <Heading as={"h2"} fontSize={"3xl"}>
-          Skills/Technologies
+          Skills
         </Heading>
         <Stack
           direction={"row"}
