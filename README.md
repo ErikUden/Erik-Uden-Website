@@ -15,7 +15,7 @@ Took me a while to build this but I'm open sourcing this for you to be able to u
 All content is completely editable out of the box from ```me.ts``` file.
 
 ## Demo
-To checkout this website, go to https://croissant.one
+To checkout this website, go to https://erikuden.com/
 
 ## Installation
 To install this website, you need to have nodejs installed on your machine.
