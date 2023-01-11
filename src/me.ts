@@ -326,7 +326,7 @@ export const me = {
     {
       name: "Resume",
       icon: FaNewspaper,
-      uri: "Erik-Uden-Resume.pdf",
+      uri: "/assets/Erik-Uden-Resume-EN-2023-01-11.pdf",
       hover: {
         bg: "red.500",
         color: "white",
