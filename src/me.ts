@@ -45,7 +45,12 @@ import {
   SiKdenlive,
   SiOracle,
   SiElixir,
-  
+  SiElasticsearch,
+  SiPleroma,
+  SiMastodon,
+  SiDiaspora,
+  SiGnusocial,
+  SiPostgresql,
   
 } from "react-icons/si";
 
@@ -138,7 +143,6 @@ export const me = {
         "PHP",
         "MySQL",
         "Docker",
-        "Docker",
         "Self-Hosted",
       ],
       links: [
@@ -155,7 +159,7 @@ export const me = {
           uri: "https://sberman.me/",
         },
       ],
-      image: "/assets/the-internet-portal-logo-black.svg",
+      image: "/assets/the-internet-portal-logo-white.svg",
     },
     {
       name: "Fediverse Share",
@@ -173,6 +177,40 @@ export const me = {
         { name: "Demo", uri: "https://fediverse-share.uden.ai" },
       ],
       
+    },
+	{
+      name: "The Uden AI Federated Network",
+      description:
+        "A social media, cloud/web-hosting and direct communication network that aims to mainly increase user privacy and bring forward the decentralization of the modern Internet. Based on Pleroma + Soapbox which was chosen due to being lightweight.",
+      contribution:
+        "Modified the source code to allow quote posts, editing posts, and a smoother more minimalist frontend as well as modularity. Recompiled for ARM devices such as a Raspberry Pi.",
+      technologies: [
+	    "AGPLv3",
+        "Fediverse",
+        "Elixir",
+        "PostgreSQL",
+        "Docker",
+        "Self-Hosted",
+      ],
+      links: [
+        {
+          name: "Website",
+          uri: "https://social.uden.ai/",
+        },
+		{
+          name: "My Account",
+          uri: "https://social.uden.ai/@Erik",
+        },
+        {
+          name: "GitLab (FE)",
+          uri: "https://gitlab.com/soapbox-pub/soapbox-fe",
+        },
+		{
+          name: "GitLab (BE)",
+          uri: "https://gitlab.com/soapbox-pub/rebased",
+        }
+      ],
+      image: "/assets/Uden-AI-Logo-Edge.svg",
     }
     
   ],
@@ -232,8 +270,8 @@ export const me = {
       icon: SiJavascript,
     },
 	{
-      name: "Database",
-      icon: FaDatabase,
+      name: "PostgreSQL",
+      icon: SiPostgresql,
     },
 	{
       name: "MongoDB",
@@ -256,6 +294,10 @@ export const me = {
     {
       name: "Node.js",
       icon: FaNode,
+    },
+	{
+      name: "Elasticsearch",
+      icon: SiElasticsearch,
     },
     {
       name: "Docker",
@@ -284,6 +326,22 @@ export const me = {
 	{
       name: "Ruby on Rails",
       icon: SiRubyonrails,
+    },
+	{
+      name: "Mastodon",
+      icon: SiMastodon,
+    },
+	{
+      name: "Pleroma",
+      icon: SiPleroma,
+    },
+	{
+      name: "Diaspora",
+      icon: SiDiaspora,
+    },
+	{
+      name: "GNUSocial",
+      icon: SiGnusocial,
     },
 	{
       name: "Android",
@@ -354,6 +412,5 @@ export const me = {
 
   contact: {
     email: "erik@uden.ai",
-	phone: "+49 176 83883250",
   },
 } as IMe;
