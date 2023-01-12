@@ -1,4 +1,4 @@
-# Croissant Portfolio
+# Developer Portfolio
 
 Hey there, This is my personal portfolio website I designed from scratch
 
