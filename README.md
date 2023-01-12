@@ -34,7 +34,7 @@ To install this website, you need to have nodejs installed on your machine.
 
 ## Feedback
 If you have any feedback, please reach out to me at [
-	arhammusheer@gmail.com](mailto:arhammusheer@gmail.com). I'd love to hear your thoughts. If you have a feature request, please open an issue and I'll try to implement it as soon as possible.
+	erik@uden.ai](mailto:erik@uden.ai). I'd love to hear your thoughts. If you have a feature request, please open an issue and I'll try to implement it as soon as possible.
 
 Also, If you have a major feature which you have implemented, please open a PR and I'll be happy to review and merge it.
 
