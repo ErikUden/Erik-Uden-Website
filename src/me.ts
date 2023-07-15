@@ -8,6 +8,7 @@ import {
   FaReact,
   FaAws,
   FaDatabase,
+  FaJava
 } from "react-icons/fa";
 import {
   DiAndroid,
@@ -260,7 +261,7 @@ export const me = {
     },
 	{
       name: "Java",
-      icon: SiJava,
+      icon: FaJava,
     },
     {
       name: "Python",
