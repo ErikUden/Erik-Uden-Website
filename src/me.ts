@@ -38,7 +38,6 @@ import {
   SiUbuntu,
   SiLinuxmint,
   SiWordpress,
-  SiJava,
   SiMysql,
   SiWindows,
   SiMacos,
