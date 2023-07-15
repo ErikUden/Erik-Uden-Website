@@ -130,6 +130,79 @@ export const me = {
   ],
   projects: [
     {
+      name: "MastodonDE",
+      description:
+        "A decentralized social network entirely self-hosted with no ads, algorithms, or data harvesting!",
+      contribution:
+        "Transported hardware in November 2022, transferred domain in February 2023, transported rack and more server hardware in June 2023, built the physical server & connected them with networking devices with Nick for the first two weeks in July 2023, during the same time I setup the Mastodon software and NGINX.",
+      technologies: [
+	    "AGPLv3",
+        "Fediverse",
+        "Mastodon",
+        "Ruby on Rails",
+        "Networking",
+        "Self-Hosted",
+      ],
+      links: [
+        {
+          name: "Website",
+          uri: "https://mastodon.de/",
+        },
+		{
+          name: "My Account",
+          uri: 'https://mastodon.de/@Erik',
+		  link: '<a rel="me" href="https://mastodon.de/@ErikUden">Mastodon</a>'
+        },
+        {
+          name: "Glitch-Soc",
+          uri: "https://github.com/glitch-soc/mastodon",
+        },
+		{
+          name: "Update Thread",
+          uri: "https://mastodon.de/@Erik@social.uden.ai/110592449230695626",
+        },
+		{
+          name: "Patreon",
+          uri: "https://patreon.com/MastodonDE",
+        }
+      ],
+      image: "/assets/mastodon-logo-purple.svg",
+    },
+	{
+      name: "The Uden AI Federated Network",
+      description:
+        "A social media, cloud/web-hosting and direct communication network that aims to mainly increase user privacy and bring forward the decentralization of the modern Internet. Based on Pleroma + Soapbox which was chosen due to being lightweight.",
+      contribution:
+        "Modified the source code to allow quote posts, editing posts, and a smoother more minimalist frontend as well as modularity. Recompiled for ARM devices such as a Raspberry Pi.",
+      technologies: [
+	    "AGPLv3",
+        "Fediverse",
+        "Elixir",
+        "PostgreSQL",
+        "Docker",
+        "Self-Hosted",
+      ],
+      links: [
+        {
+          name: "Website",
+          uri: "https://social.uden.ai/",
+        },
+		{
+          name: "My Account",
+          uri: "https://social.uden.ai/@Erik",
+        },
+        {
+          name: "GitLab (FE)",
+          uri: "https://gitlab.com/soapbox-pub/soapbox-fe",
+        },
+		{
+          name: "GitLab (BE)",
+          uri: "https://gitlab.com/soapbox-pub/rebased",
+        }
+      ],
+      image: "/assets/Uden-AI-Logo-Edge.svg",
+    },
+	{
       name: "The Internet Portal",
       description:
         "With the press of a button, you will be transported to a random website out of over 219 million in our database.",
@@ -177,41 +250,8 @@ export const me = {
         { name: "Demo", uri: "https://fediverse-share.uden.ai" },
       ],
       
-    },
-	{
-      name: "The Uden AI Federated Network",
-      description:
-        "A social media, cloud/web-hosting and direct communication network that aims to mainly increase user privacy and bring forward the decentralization of the modern Internet. Based on Pleroma + Soapbox which was chosen due to being lightweight.",
-      contribution:
-        "Modified the source code to allow quote posts, editing posts, and a smoother more minimalist frontend as well as modularity. Recompiled for ARM devices such as a Raspberry Pi.",
-      technologies: [
-	    "AGPLv3",
-        "Fediverse",
-        "Elixir",
-        "PostgreSQL",
-        "Docker",
-        "Self-Hosted",
-      ],
-      links: [
-        {
-          name: "Website",
-          uri: "https://social.uden.ai/",
-        },
-		{
-          name: "My Account",
-          uri: "https://social.uden.ai/@Erik",
-        },
-        {
-          name: "GitLab (FE)",
-          uri: "https://gitlab.com/soapbox-pub/soapbox-fe",
-        },
-		{
-          name: "GitLab (BE)",
-          uri: "https://gitlab.com/soapbox-pub/rebased",
-        }
-      ],
-      image: "/assets/Uden-AI-Logo-Edge.svg",
     }
+	
     
   ],
   skills: [
