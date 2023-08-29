@@ -53,6 +53,16 @@ import {
   SiPostgresql,
   
 } from "react-icons/si";
+import {
+  DiAndroid,
+  DiApple,
+  DiDebian,
+} from "react-icons/di";
+
+
+//import {
+//	fediverseLogoMono,
+//} from "/public/assets/fediverseLogoMono.svg";
 
 import { IMe } from "./me.interface";
 
@@ -430,6 +440,15 @@ export const me = {
       },
     },
     {
+      name: "FaGitHub",
+      icon: fediverseLogoMono,
+      uri: "https://mastodon.de/@ErikUden",
+      hover: {
+        bg: "gray.900",
+        color: "white",
+      },
+    },
+	{
       name: "Github",
       icon: FaGithub,
       uri: "https://github.com/erikuden",
