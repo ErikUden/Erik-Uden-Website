@@ -430,6 +430,15 @@ export const me = {
       },
     },
     {
+      name: "Fediverse",
+      icon: SiMastodon,
+      uri: "https://mastodon.de/@ErikUden",
+      hover: {
+        bg: "gray.900",
+        color: "white",
+      },
+    },
+	{
       name: "Github",
       icon: FaGithub,
       uri: "https://github.com/erikuden",
