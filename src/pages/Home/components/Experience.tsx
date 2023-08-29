@@ -102,7 +102,7 @@ const SingleExperience = ({
         <Stack direction={"column"} />
         {bullets.map((bullet) => (
           <Heading as={"h5"} fontSize={"md"} fontWeight={"normal"} key={bullet}>
-            - {bullet}
+            • {bullet}
           </Heading>
         ))}
       </Stack>

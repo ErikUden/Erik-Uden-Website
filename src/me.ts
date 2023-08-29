@@ -140,8 +140,7 @@ export const me = {
         "Fediverse",
         "Mastodon",
         "Ruby on Rails",
-        "Networking",
-        "Self-Hosted",
+        "Self-Hosted"
       ],
       links: [
         {
@@ -154,7 +153,7 @@ export const me = {
 		  link: '<a rel="me" href="https://mastodon.de/@ErikUden">Mastodon</a>'
         },
         {
-          name: "Glitch-Soc",
+          name: "Glitch",
           uri: "https://github.com/glitch-soc/mastodon",
         },
 		{
