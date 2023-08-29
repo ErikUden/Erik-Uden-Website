@@ -64,7 +64,7 @@ export const me = {
   about:
     "I contribute to and self-host decentralized communication networks such as the Fediverse (Mastodon, Pleroma, Diaspora...). I fight for digital rights and believe in freedom of information and FOSS.",
   location: "Norden, Germany",
-  image: "/assets/erikuden3.png",
+  image: "/assets/erikuden4.png",
   education: [
     {
       degree: "Abitur (General Certificate of Education)",
