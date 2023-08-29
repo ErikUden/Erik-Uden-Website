@@ -150,7 +150,7 @@ export const me = {
         },
 		{
           name: "My Account",
-          uri: 'https://mastodon.de/@Erik',
+          uri: 'https://mastodon.de/@ErikUden',
 		  link: '<a rel="me" href="https://mastodon.de/@ErikUden">Mastodon</a>'
         },
         {
