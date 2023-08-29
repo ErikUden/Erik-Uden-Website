@@ -67,6 +67,13 @@ export const me = {
   image: "/assets/erikuden4.png",
   education: [
     {
+      degree: "Bachelor of Science",
+      major: "Computer Science",
+      school: "Carl von Ossietzky University Oldenburg",
+      graduation: "2022.10.01 ― 2023.09.30",
+      awards: [""],
+    },
+	{
       degree: "Abitur (General Certificate of Education)",
       major: "Scientific Focus",
       school: "Ulrichsgymnasium Norden",
@@ -86,7 +93,7 @@ export const me = {
       company: "Uden AI",
       location: "Norden, Germany",
       position: "Co-Founder & CEO",
-      duration: "Feb 2021 - Present",
+      duration: "Feb 2021 ― Present",
       bullets: [
         "Wrote Cyberattack-Reports for Nations under Attack",
         "Developed Fediverse Software and Published it FOSS",
@@ -99,7 +106,7 @@ export const me = {
       company: "Wasco GmbH",
       location: "Upgant-Schott, Germany",
       position: "Artificial Intelligence Developer",
-      duration: "Feb 2019 - Aug 2020",
+      duration: "Feb 2019 ― Aug 2020",
       bullets: [
         "Built AI Models in TensorFlow",
         "Recovered Crashed Servers",
@@ -110,7 +117,7 @@ export const me = {
       company: "DFKI (German Research Center for Artificial Intelligence)",
       location: "Bremen, Germany",
       position: "Intern",
-      duration: "Oct 2018 - Nov 2018",
+      duration: "Oct 2018 ― Nov 2018",
       bullets: [
         "Learned from LiDAR Systems",
         "Built and 3D Printed a Solar-Tracker",
@@ -120,7 +127,7 @@ export const me = {
       company: "Heinrich Döpke GmbH",
       location: "Norden, Germany",
       position: "Intern",
-      duration: "Feb 2018 - Mar 2018",
+      duration: "Feb 2018 ― Mar 2018",
       bullets: [
         "Welded Metal Parts",
         "Painted and Coated a Small Ferry",
@@ -157,12 +164,12 @@ export const me = {
           uri: "https://github.com/glitch-soc/mastodon",
         },
 		{
-          name: "Update Thread",
+          name: "Build",
           uri: "https://mastodon.de/@Erik@social.uden.ai/110592449230695626",
         },
 		{
-          name: "Patreon",
-          uri: "https://patreon.com/MastodonDE",
+          name: "LiberaPay",
+          uri: "https://liberapay.com/MastodonDE",
         }
       ],
       image: "/assets/mastodonDE-logo-purple.png",
@@ -204,7 +211,7 @@ export const me = {
 	{
       name: "The Internet Portal",
       description:
-        "With the press of a button, you will be transported to a random website out of over 219 million in our database.",
+        "With the press of a button, you will be transported to a random website out of over 219 million in our database. Based on ICANN's Centralized Zone Data Service.",
       contribution:
         "I downloaded all of the internet's domains via ICANN's CZDS API, imported them into a SQL database, open-sourced the source code (AGPLv3) written by Samuel Berman, self-hosted it on Uden AI servers.",
       technologies: [
@@ -434,7 +441,7 @@ export const me = {
       icon: SiMastodon,
       uri: "https://mastodon.de/@ErikUden",
       hover: {
-        bg: "gray.900",
+        bg: "blue.500",
         color: "white",
       },
     },
@@ -452,7 +459,7 @@ export const me = {
       icon: FaLinkedin,
       uri: "https://www.linkedin.com/in/erikuden",
       hover: {
-        bg: "blue.500",
+        bg: "cyan.900",
         color: "white",
       },
     },
