@@ -166,7 +166,7 @@ export const me = {
           uri: "https://patreon.com/MastodonDE",
         }
       ],
-      image: "/assets/mastodon-logo-purple.svg",
+      image: "/assets/mastodonDE-logo-purple.png",
     },
 	{
       name: "The Uden AI Federated Network",
