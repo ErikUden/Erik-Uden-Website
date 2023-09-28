@@ -69,6 +69,13 @@ export const me = {
     {
       degree: "Bachelor of Science",
       major: "Computer Science",
+      school: "Gottfried Wilhelm Leibniz Universität Hannover",
+      graduation: "2023.10.01 ― Today",
+      awards: [""],
+    },
+    {
+      degree: "Bachelor of Science",
+      major: "Computer Science",
       school: "Carl von Ossietzky University Oldenburg",
       graduation: "2022.10.01 ― 2023.09.30",
       awards: [""],
