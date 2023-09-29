@@ -8,7 +8,8 @@ import {
   FaReact,
   FaAws,
   FaDatabase,
-  FaJava
+  FaJava,
+  FaImdb
 } from "react-icons/fa";
 import {
   DiAndroid,
@@ -175,8 +176,8 @@ export const me = {
           uri: "https://mastodon.de/@Erik@social.uden.ai/110592449230695626",
         },
 		{
-          name: "LiberaPay",
-          uri: "https://liberapay.com/MastodonDE",
+          name: "Donate",
+          uri: "https://mastodon.de/@MastodonDE/110808633497349326",
         }
       ],
       image: "/assets/mastodonDE-logo-purple.png",
@@ -444,7 +445,7 @@ export const me = {
       },
     },
     {
-      name: "Fediverse",
+      name: "Mastodon",
       icon: SiMastodon,
       uri: "https://mastodon.de/@ErikUden",
       hover: {
@@ -468,6 +469,15 @@ export const me = {
       hover: {
         bg: "cyan.900",
         color: "white",
+      },
+    },
+	{
+      name: "IMDB",
+      icon: FaImdb,
+      uri: "https://www.imdb.com/name/nm15289400/",
+      hover: {
+        bg: "#F5C518",
+        color: "black",
       },
     },
   ],
