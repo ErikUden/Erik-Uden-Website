@@ -92,7 +92,7 @@ export const me = {
       degree: "High School Diploma",
       major: "AP Comp Sci A, AP Chem, AP Physics 1, AP Macro",
       school: "Willow Glen High School",
-      graduation: "2022.06.02",
+      graduation: "2020.06.02",
       awards: ["Treasurer of the Robotics Club"],
     },
   ],
